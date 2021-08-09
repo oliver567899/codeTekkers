@@ -1,0 +1,30 @@
+#game {
+    width: 1200px;
+    height: 850px;
+    border: solid black 1px;
+}
+#character {
+    background: blue;
+    height: 50px;
+    width: 20px;
+    position: relative;
+    top: 800px;
+    transition: top 500ms cubic-bezier(0, 0.99, 0, 1.01);
+}
+#block {
+    background: green;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 1180px;
+    top: 780px;
+    animation: block 3s infinite linear;
+}
+@keyframes block{
+    0%{left: 1180px}
+    /* 80%{left: 80px;} */
+    100%{left: -40px;}
+} 
+#pausebtn {
+    cursor: pointer;
+}
