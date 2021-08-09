@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#menubar {
+    width: 5000px;
+    height: 100px;
+    background-color: rgb(31, 31, 31);
+}
+#menubar li, a{
+    color: white;
+}
+#menubar li {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 35px;
+    list-style-type: none;
+    position: relative;
+    top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menubar li a {
+    text-decoration: none;
+}
+#menubar li a:hover{
+    color: rgb(0, 121, 161);
+}
